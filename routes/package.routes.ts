@@ -1,8 +1,8 @@
-import * as express from 'express';
-import packageController from '../controllers/package.controller';
+import * as express from 'express'
+import packageController from '../controllers/package.controller.ts'
 
-const router = express.Router();
+const router = express.Router()
 
-router.get('/', packageController.getAll);
+router.get('/', packageController.getAll)
 
-export default router;
+export default router

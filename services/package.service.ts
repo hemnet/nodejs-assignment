@@ -1,40 +1,43 @@
-import { sequelizeConnection } from '../db/config'
-import {Package} from '../models/package';
-import { Price } from '../models/price';
+import { sequelizeConnection } from '../db/config.ts'
+import { Package } from '../models/package.ts'
+import { Price } from '../models/price.ts'
 
 export default {
   async getAll() {
     return await Package.findAll({
-			include: [
-				{model: Price, as: 'prices'},
-			],
-		});
+      include: [{ model: Price, as: 'prices' }],
+    })
   },
   async updatePackagePrice(pack: Package, newPriceCents: number) {
     try {
-      const newPackage = await sequelizeConnection.transaction(async t => {
-        await Price.create({
-          packageId: pack.id,
-          priceCents: pack.priceCents,
-        }, { transaction: t });
+      const newPackage = await sequelizeConnection.transaction(async (t) => {
+        await Price.create(
+          {
+            packageId: pack.id,
+            priceCents: pack.priceCents,
+          },
+          { transaction: t },
+        )
 
-        pack.priceCents = newPriceCents;
+        pack.priceCents = newPriceCents
 
-        return pack.save({ transaction: t });
-      });
+        return pack.save({ transaction: t })
+      })
 
-      return newPackage;
+      return newPackage
     } catch (err: unknown) {
-      throw new Error('Error handling the transaction');
+      throw new Error('Error handling the transaction')
     }
   },
-	async priceFor(municipality: string) {
-    const foundPackage = await Package.findOne({ where: { name: municipality } });
+  async priceFor(municipality: string) {
+    const foundPackage = await Package.findOne({
+      where: { name: municipality },
+    })
 
     if (!foundPackage) {
-      return null;
+      return null
     }
 
-		return foundPackage.priceCents;
-	},
-};
+    return foundPackage.priceCents
+  },
+}

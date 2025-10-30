@@ -1,21 +1,21 @@
-import express from 'express';
-import packagesRoutes from './routes/package.routes';
-import {sequelizeConnection} from './db/config';
-import {seedDb} from './db/seed';
+import express from 'express'
+import { sequelizeConnection } from './db/config.ts'
+import { seedDb } from './db/seed.ts'
+import packagesRoutes from './routes/package.routes.ts'
 
-const port = 3000;
-export const app = express();
+const port = 3000
+export const app = express()
 
 app.listen(port, () => {
-	console.log(`Hemnet application running on port ${port}!`);
-});
-app.use(express.json());
+  console.log(`Hemnet application running on port ${port}!`)
+})
+app.use(express.json())
 
 //  Initialize database //
-sequelizeConnection.sync({force: true}).then(async () => {
-	console.log('DB running');
+sequelizeConnection.sync({ force: true }).then(async () => {
+  console.log('DB running')
 
-	await seedDb();
-});
+  await seedDb()
+})
 
-app.use('/api/packages', packagesRoutes);
+app.use('/api/packages', packagesRoutes)
