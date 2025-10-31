@@ -9,6 +9,7 @@
   "type": "module",
   "scripts": {
     "test": "jest --runInBand",
+    "lint": "biome check --fix",
     "start": "node index.ts",
     "dev": "node --watch index.ts"
   },
