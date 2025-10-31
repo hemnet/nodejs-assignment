@@ -6,6 +6,7 @@
   },
   "description": "",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "test": "jest --runInBand",
     "start": "node index.ts",
