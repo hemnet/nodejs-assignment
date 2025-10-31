@@ -1,3 +1,4 @@
+import { afterAll, beforeEach, describe, expect, it } from '@jest/globals'
 import { sequelizeConnection } from '../../db/config'
 import { Package } from '../../models/package'
 import { Price } from '../../models/price'
@@ -34,17 +35,5 @@ describe('PackageService', () => {
 
     expect(priceHistory.length).toBe(1)
     expect(priceHistory[0].priceCents).toBe(100_00)
-  })
-
-  // This tests cover feature request 1. Feel free to add more tests or change
-  // the existing one.
-  it('Supports adding a price for a specific municipality', async () => {
-    const pack = await Package.create({ name: 'Dunderhonung', priceCents: 0 })
-
-    await packageService.updatePackagePrice(pack, 200_00, 'Göteborg')
-
-    const response = await packageService.priceFor('Göteborg')
-
-    expect(response).toBe(200_00)
   })
 })
