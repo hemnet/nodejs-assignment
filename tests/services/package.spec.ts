@@ -1,8 +1,8 @@
 import { afterAll, beforeEach, describe, expect, it } from '@jest/globals'
-import { sequelizeConnection } from '../../db/config'
-import { Package } from '../../models/package'
-import { Price } from '../../models/price'
-import PackageService from '../../services/package.service'
+import { sequelizeConnection } from '../../db/config.ts'
+import { Package } from '../../models/package.ts'
+import { Price } from '../../models/price.ts'
+import PackageService from '../../services/package.service.ts'
 
 describe('PackageService', () => {
   // Set the db object to a variable which can be accessed throughout the whole test file

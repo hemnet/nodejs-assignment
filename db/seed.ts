@@ -1,25 +1,25 @@
-import { Package } from "../models/package.ts";
-import { Price } from "../models/price.ts";
+import { Package } from '../models/package.ts'
+import { Price } from '../models/price.ts'
 
 export const seedDb = async () => {
-  await Package.destroy({ truncate: true });
+  await Package.destroy({ truncate: true })
 
   await Package.bulkCreate(
     [
-      { name: "basic", priceCents: 20_000 },
-      { name: "plus", priceCents: 59_900 },
-      { name: "premium", priceCents: 111_100 },
+      { name: 'basic', priceCents: 20_000 },
+      { name: 'plus', priceCents: 59_900 },
+      { name: 'premium', priceCents: 111_100 },
     ],
     { validate: true },
-  );
+  )
 
   const basic = (await Package.findOne({
-    where: { name: "basic" },
-  })) as Package;
-  const plus = (await Package.findOne({ where: { name: "plus" } })) as Package;
+    where: { name: 'basic' },
+  })) as Package
+  const plus = (await Package.findOne({ where: { name: 'plus' } })) as Package
   const premium = (await Package.findOne({
-    where: { name: "premium" },
-  })) as Package;
+    where: { name: 'premium' },
+  })) as Package
 
   await Price.bulkCreate(
     [
@@ -27,7 +27,7 @@ export const seedDb = async () => {
       { priceCents: 10_000, packageId: basic.id },
     ],
     { validate: true },
-  );
+  )
 
   await Price.bulkCreate(
     [
@@ -36,7 +36,7 @@ export const seedDb = async () => {
       { priceCents: 39_900, packageId: plus.id },
     ],
     { validate: true },
-  );
+  )
 
   await Price.bulkCreate(
     [
@@ -46,5 +46,5 @@ export const seedDb = async () => {
       { priceCents: 88_800, packageId: premium.id },
     ],
     { validate: true },
-  );
-};
+  )
+}
