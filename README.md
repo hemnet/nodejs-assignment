@@ -49,8 +49,6 @@ guidelines:
   pipelines, etc)
 - Some of the variables and code in the codebase are intentionally left there
   for you to get a hint on what you should do next
-- Set your own scope and make your own prioritizations for the challenges you're
-  proposed
 - No HTTP requests are needed anywhere
 - The assignment can (and should) be completed without the need of any more
   external packages, but you can add them if you feel it's necessary, just have
