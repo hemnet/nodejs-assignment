@@ -29,9 +29,9 @@ export default {
       throw new Error('Error handling the transaction')
     }
   },
-  async priceFor(municipality: string) {
+  async priceFor(packageName: string) {
     const foundPackage = await Package.findOne({
-      where: { name: municipality },
+      where: { name: packageName },
     })
 
     if (!foundPackage) {
