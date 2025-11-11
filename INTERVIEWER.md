@@ -20,14 +20,19 @@ If the candidate could not bring a laptop (or in case of technical difficulties)
 		- The candidate is free to use AI tools at their discretion, but we are assessing their skills, not the AI's.
 		- The candidate can start when he's ready
 - Feature request 1 (50 minutes max):
-	- **Candidate** can (should) use the whiteboard
-	- If/when candidate get stuck or confused, drive them by asking questions
+	- **Candidate** can (should) use the whiteboard and share their screen when implementing the feature.
 - Feature request 2 (15 minutes max)
 	- **Interviewer** asks the candidate to draw the high level solution on the whiteboard.
 - Wrapping up the assignment (5 minutes max):
 	- **Interviewer** asks the candidate what they would change to have this application production-ready.
 - Conclusion (10 minutes max)
 	- **Candidate** has the remaining time to ask questions to the interviewers.
+
+
+## Tips for the interviewer
+- Encourage the candidate to think aloud and share their reasoning
+- Try to break the "interview" atmosphere by standing up next to the whiteboard with the candidate
+- Don't hesitate to ask questions to the candidate to drive them if they get stuck
 
 ---
 
