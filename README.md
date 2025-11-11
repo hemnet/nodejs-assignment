@@ -50,11 +50,12 @@ Make good use of your tools, but remember we're evaluating your own skills and t
 
 ## On the Day
 
-- Be ready to share your screen and run code locally.
-- Use both your editor and the whiteboard as we work through the assignment.
-- Ask questions, clarify requirements, and discuss trade-offs: that's exactly what we do in real work.
-- Think aloud so we can follow your reasoning and jump in to help when useful.
-- Don't worry about finishing everything, we care more about how you approach problems and collaborate than completing every feature.
+- **Bring your laptop with you**. If you don't have one, let HR know in advance and we will provide one.
+- Be ready to **share your screen** and run code locally.
+- Use both your **editor** and the **whiteboard** as we work through the assignment.
+- **Ask questions**, clarify requirements, and discuss trade-offs: that's exactly what we do in real work.
+- **Think aloud** so we can follow your reasoning and jump in to help when useful.
+- **Don't worry about finishing everything**, we care more about how you approach problems and collaborate than completing every feature.
 
 ## If You Encounter Issues
 
