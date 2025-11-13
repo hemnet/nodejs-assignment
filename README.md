@@ -1,21 +1,25 @@
 # Node.js Technical Interview
 
-Thank you for advancing to the technical interview stage with Hemnet.
+Congratulations for advancing to the technical interview stage with Hemnet.
 
-This session is designed as a collaborative working session where we'll solve problems together, just like we do in our day-to-day work. You'll lead the design and implementation, while we're here to support you, answer questions, and explore ideas together. This is not a test of memorization — we're interested in your reasoning, how you communicate your approach, and your technical judgment.
+This session is designed as a collaborative working session where we'll solve problems together, just like we do in our day-to-day work. You'll lead the design and implementation, while we're here to support you, answer questions, and explore ideas together. This is not a test of memorization, neither is it a technical show off. We're interested in your reasoning, how you communicate your approach, your technical judgment, and how you approach complexity.
 
 ## Interview Overview
 
 - **Format:** Live collaborative session with Hemnet engineers — think of it as pair programming with teammates
 - **Duration:** ~90 minutes total
     - 5-10 min introduction and getting to know each other
-    - 60-70 min working on the technical assignment together
+    - 70 min working on the technical assignment together
     - 10-15 min wrap-up and questions
-- **Environment:** You'll work on a small Node.js + TypeScript project that we'll share at the start. It already runs and includes some basic functionality and tests.
+- **Environment:** You'll work on the Node.js + TypeScript application in this repository. It already runs and includes some basic functionality and tests.
+
+### Background information
+
+A company "*MediaNow*" is selling packages - Basic, Plus, and Premium. The price for each package is updated regularly and a pricing log is kept for all packages.
 
 ## What to Expect
 
-During the session, you'll be leading the work to extend or improve an existing part of the app — we're here to collaborate with you along the way. The interview is intentionally open-ended and includes both **coding** and **whiteboarding** components. You'll use the whiteboard together with us for:
+During the session, you'll be leading the work to extend or improve an existing part of the app. We're here to collaborate with you along the way. The interview is intentionally open-ended and includes both **coding** and **whiteboarding** components. You'll use the whiteboard together with us for:
 
 - Organizing your ideas and prioritizing work before coding
 - Sketching your approach to one of the requested features
