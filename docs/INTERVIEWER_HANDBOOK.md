@@ -4,10 +4,13 @@
 
 ### Whiteboard
 - For office interviews, book a room with a whiteboard (SergelConferens is a good backup plan if no rooms are available at the office).
-- For remote interviews, use https://excalidraw.com/
+- For remote interviews, use https://miro.com/online-whiteboard/
 
 ### Laptop
 If the candidate could not bring a laptop (or in case of technical difficulties), a laptop is available in the testing device locker. Login credentials are available in 1Password under `Macbook Technical ITW`.
+
+- Make sure the assignment repository is already downloaded on the candidate's computer before starting the interview
+- Also make sure that the node application starts (it should start as is) and that the tests also run and pass.
 
 ### Sharing the `nodejs-assignment` repository
 - Download the `main` branch by clicking [this link](https://github.com/hemnet/nodejs-assignment/archive/refs/heads/main.zip)
@@ -16,8 +19,8 @@ If the candidate could not bring a laptop (or in case of technical difficulties)
 ## Timeline for a 90-Minute Interview
 
 ### Introduction (10 minutes)
-1. **Everyone** introduces themselves briefly
-2. **Interviewer** asks if candidate has reviewed the materials in the zip file sent by HR, and if there are any questions
+1. **Everyone** introduces themselves briefly, don't forget to state your team and position
+2. **Interviewer** asks if candidate has reviewed the code repository in the zip file sent by HR, and if there are any questions
 3. **Interviewer** explains the interview format:
    - This is a collaborative session, not an exam
    - We'll do both code review and feature implementation
@@ -38,7 +41,7 @@ If the candidate could not bring a laptop (or in case of technical difficulties)
   - Whether they understand the business context
   - Their depth of technical knowledge
 
-### Part 2: Feature Request 1 - Implementation (45 minutes)
+### Part 2: Feature Request - Implementation (45 minutes)
 - Interviewer picks one of the Feature Requests in `docs/FEATURE_REQUESTS` based on candidate level and sends it to them via Airdrop or email.
 - **Candidate** reads the feature request:
   - Implement Feature Request 1 together
