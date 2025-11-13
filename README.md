@@ -70,7 +70,3 @@ No need to over-prepare or memorize anything. This is a collaborative working se
 ## If You Encounter Issues
 
 If something isn't working or you need extra time to set up before the interview, contact HR immediately. We'll make sure you have a smooth start.
-
----
-
-We look forward to meeting you and working together to see how you approach building software at Hemnet.
