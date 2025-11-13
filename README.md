@@ -50,6 +50,8 @@ Make good use of your tools, but remember we're evaluating your own skills and t
 ## Preparation Tips
 
 - Ensure Node.js 24+ and npm are installed on your machine.
+- Run `npm install` in the project directory to install dependencies.
+- Familiarize yourself with the existing codebase.
 - Set up a comfortable environment (editor, terminal, Git client). No need to over-prepare, this is a collaborative working session, not a quiz.
 
 ## On the Day
