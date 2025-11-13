@@ -2,11 +2,11 @@
 
 Congratulations for advancing to the technical interview stage with Hemnet.
 
-This stage is designed as a collaborative working session where we'll solve problems together, just like we do in our day-to-day work at Hemnet. You'll lead the design and implementation, while we're here to support you, answer questions, and explore ideas together. This is not a test of memorization, neither is it a technical show off. We want to get a sense of what it's like to work with you in real life.
+This stage is designed as a collaborative working session where we'll solve problems together, just like we do in our day-to-day work at Hemnet. You'll lead the design and implementation, while we're here to support you, answer questions, and explore ideas together. This is not a test of memorization, neither is it a technical show off. We want to get a sense of what it's like to work with you.
 
 ## Interview Overview
 
-- **Format:** Live collaborative session with Hemnet engineers — think of it as pair programming with teammates
+- **Format:** Live collaborative session with Hemnet engineers
 - **Duration:** ~90 minutes total
     - 10 min introduction and getting to know each other
     - 70 min collaborative technical session
@@ -19,7 +19,7 @@ A company "*MediaNow*" is selling packages - Basic, Plus, and Premium. The price
 
 ## What to Expect
 
-During the technical session, you'll be leading work on this codebase — we're here to collaborate with you along the way. The session is intentionally open-ended and includes both **code discussion** and **implementation** components. You'll use the whiteboard together with us for:
+During the technical session, you'll be leading work on this codebase. We're here to collaborate with you along the way. The session is intentionally open-ended and includes both **code discussion** and **implementation** components. You'll use the whiteboard together with us for:
 
 - Organizing your ideas and prioritizing work
 - Sketching your approach and discussing design decisions
@@ -50,22 +50,22 @@ Make good use of your tools, but remember we're evaluating your own skills and t
 ## Preparation Tips
 
 Before the interview, please:
-- **Review this codebase** — understand the structure, read through the code, and see how it works
+- Browse through the structure and code to get a sense of how the Node.js application works
 - Ensure **Node.js 24+ and npm** are installed on your machine
 - Run `npm install` in the project directory to install dependencies
 - **Verify that you can run the application and tests successfully**
 - Set up a comfortable environment (editor, terminal, Git client)
 
-No need to over-prepare or memorize anything — this is a collaborative working session, not a quiz. We just want you to be familiar with the codebase so we can jump right into the discussion. The specific tasks we'll work on together will be shared during the interview.
+No need to over-prepare or memorize anything. This is a collaborative working session, not a quiz. We just want you to be familiar with the codebase so we can jump right into the discussion. The specific tasks we'll work on together will be shared during the interview.
 
 ## On the Day
 
 - **Bring your laptop with you**. If you don't have one, let HR know in advance and we will provide one.
 - Be ready to **share your screen** and run code locally.
 - Use both your **editor** and the **whiteboard** as we work through the assignment.
-- **Ask questions**, clarify requirements, and discuss trade-offs — that's exactly what we do in real life.
+- **Ask questions**, clarify requirements, and discuss trade-offs.
 - **Think aloud** so we can follow your reasoning and jump in to help when useful.
-- **Don't worry about finishing everything** — we care more about how you approach problems and collaborate than completing every feature.
+- **Don't worry about finishing everything**, we care more about how you approach problems and collaborate than completing every feature.
 
 ## If You Encounter Issues
 
