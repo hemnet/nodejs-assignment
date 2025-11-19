@@ -1,105 +1,72 @@
-# Coding Assignment
+# Node.js Technical Interview
 
-We have set up a minimal Node.js app with some opinionated file structure (with
-routes, controllers, models and services), as well as some tests in Jest.
+Congratulations for advancing to the technical interview stage with Hemnet.
 
-The goal of this test will be explained to us by your interviewers during your
-interview. This structure outlines a minimal functioning API with a minimal set
-of tests and features you will have to improve.
+This stage is designed as a collaborative working session where we'll solve problems together, just like we do in our day-to-day work at Hemnet. You'll lead the design and implementation, while we're here to support you, answer questions, and explore ideas together. This is not a test of memorization, neither is it a technical show off. We want to get a sense of what it's like to work with you.
 
-On checking out, these two commands should run normally:
+## Interview Overview
 
-```sh
-# Run npm install to install all necessary packages for development
-$ npm install
-# The test command will set up an in-memory SQLite DB.
-$ npm run test
-```
+- **Format:** Live collaborative session with Hemnet engineers
+- **Duration:** ~90 minutes total
+    - 10 min introduction and getting to know each other
+    - 70 min collaborative technical session
+    - 10 min wrap-up and questions
+- **Environment:** This Node.js + TypeScript project! We've sent it to you in advance so you can familiarize yourself with the codebase. It already runs and includes some basic functionality and tests.
 
-To develop locally with hot reloading, run the following command:
+### Background information
 
-```sh
-$ npm run dev
-```
+A company "*MediaNow*" is selling packages - Basic, Plus, and Premium. The price for each package is updated regularly and a pricing log is kept for all packages.
 
-Both test and dev commands will spin up a new in-memory SQLite DB each time you
-run them. The dev command will additionally seed with some initial data
-(`db/seed.ts`).
+## What to Expect
 
-## A few notes about the assignment
+During the technical session, you'll be leading work on this codebase. We're here to collaborate with you along the way. The session is intentionally open-ended and includes both **code discussion** and **implementation** components. You'll use the whiteboard together with us for:
 
-This is not intended to be the perfect application as it is today, however it
-does run with the latest Node version and using TypeScript as we do here at
-Hemnet.
+- Organizing your ideas and prioritizing work
+- Sketching your approach and discussing design decisions
+- Exploring trade-offs
 
-The current tech stack is:
+Throughout the session, we'll be observing and engaging with you around:
 
-- Node.js on version 24+ (uses Node's native TS execution capabilities)
-- ECMAScript Modules throughout the codebase
-- Jest for testing
-- SQLite as an in-memory database (using Sequelize as ORM)
-
-### Guidelines
-
-When doing the assignment with us in your interview, be mindful of the following
-guidelines:
-
-- Write code as if it was to be delivered to production
-- You won't need to write any infra-related code (like Dockerfiles, CI/CD
-  pipelines, etc)
-- Some of the variables and code in the codebase are intentionally left there
-  for you to get a hint on what you should do next
-- No HTTP requests are needed anywhere
-- The assignment can (and should) be completed without the need of any more
-  external packages, but you can add them if you feel it's necessary, just have
-  a good reason for it
-- Code styling is not mandatory but greatly appreciated, we include a biome file
-  and it _should_ be set up to automatically run on save. But you can manually
-  run it using `npm run lint`
-- By the end of your thinking, make sure there are no errors or failing tests
-  when running `npm run test`, you wouldn't deploy an erroring application to
-  production, would you?
-- Don't over-engineer things, keep it simple and pragmatic, not everything is as
-  complex as it seems
-
-### What are we looking for?
-
-This test is intentionally open-ended. We want to see how you think and how you
-react when presented with one or more challenges. Think of this as a pair
-programming session so:
-
-- Share your thoughts out loud
-- Feel free to ask questions if something is not clear
-- Feel free to explain your reasoning when making decisions
-- You're in control of the code, we won't barge in or change your decisions, but
-  we might ask questions about them
-- Understand that there might be multiple valid approaches to the same problem
-- There are no trick questions here, we just want to see how you work, we want
-  you to be with us as much as you do. We are not against you
-
-The interviewers will judge you based on (but not limited to):
-
-- Problem solving skills
-- Clarity of thought
+- Problem solving skills and approach
+- Clarity of thought and communication
 - Code organization and quality
 - How easy it is to follow your reasoning and code
 - How you prioritize tasks
-- How you approach testing and problems when presented with a demand
-- How is your relationship with your tools and tech stack
+- How you approach testing and respond to requirements
+- Your relationship with your tools and tech stack
 
-### About the use of AI tools
+There are no trick questions or hidden requirements. We want to understand how you think, work, and collaborate with a team.
 
-At Hemnet we believe AI tools can be a great help to developers, and we don't
-ban their use during interviews, you're free to use them or not. However, we do
-expect you to:
+## Using AI Tools
+
+You're welcome to use AI tools if you wish. We expect you to:
 
 - Know when it's a good idea to use them
 - Differentiate between good and bad suggestions
-- Disclose why are you using them for a particular task
+- Share your reasoning for using them for a particular task
 
-Make good use of your tools, but remember you're being evaluated on your own
-skills, not the AI's.
+Make good use of your tools, but remember we're evaluating your own skills and thought process, not the AI's.
 
-## If things go wrong
+## Preparation Tips
 
-Let us know if something doesn't seem right or if you have any questions.
+Before the interview, please:
+- Browse through the structure and code to get a sense of how the Node.js application works
+- Ensure **Node.js 24+ and npm** are installed on your machine
+- Run `npm install` in the project directory to install dependencies
+- **Verify that you can run the application and tests successfully**
+- Set up a comfortable environment (editor, terminal, Git client)
+
+No need to over-prepare or memorize anything. This is a collaborative working session, not a quiz. We just want you to be familiar with the codebase so we can jump right into the discussion. The specific tasks we'll work on together will be shared during the interview.
+
+## On the Day
+
+- **Bring your laptop with you**. If you don't have one, let HR know in advance and we will provide one.
+- Be ready to **share your screen** and run code locally.
+- Use both your **editor** and the **whiteboard** as we work through the assignment.
+- **Ask questions**, clarify requirements, and discuss trade-offs.
+- **Think aloud** so we can follow your reasoning and jump in to help when useful.
+- **Don't worry about finishing everything**, we care more about how you approach problems and collaborate than completing every feature.
+
+## If You Encounter Issues
+
+If something isn't working or you need extra time to set up before the interview, contact HR immediately. We'll make sure you have a smooth start.
